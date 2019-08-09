@@ -16,7 +16,7 @@ class TC05ViewAppointment {
 	void tearDown() throws Exception {
 	}
 
-	// test comment
+	// test comments
 	@Test
 	void test() {
 		fail("Not yet implemented");
