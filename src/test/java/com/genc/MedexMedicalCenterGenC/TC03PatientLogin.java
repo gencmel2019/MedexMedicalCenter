@@ -41,14 +41,14 @@ class TC03PatientLogin {
 
 		driver.findElement(By.id("pateintLogin")).submit();
 
-		// assert
+		// assert to check that the patient successfully logs in
 		String title = driver.getTitle();
 		String expected = "Patient Home - Medex Medical Center";
 		String errorMsg = "TC03 Fail: Titles don't match.";
 
 		assertEquals(title, expected, errorMsg);
 
-		// close
+		// close the window
 		driver.close();
 
 	}
